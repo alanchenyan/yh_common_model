@@ -9,10 +9,10 @@
     </parent>
 
     <groupId>com.yh</groupId>
-    <artifactId>wc_hotel</artifactId>
+    <artifactId>common.model</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>wc_hotel</name>
-    <description>小程序 酒店</description>
+    <name>yh_common_model</name>
+    <description>瀛海公用模块</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -29,7 +29,7 @@
         <dependency>
             <groupId>com.github.alanchenyan</groupId>
             <artifactId>smm-framework</artifactId>
-            <version>1.8.7</version>
+            <version>1.8.9</version>
         </dependency>
 
         <dependency>

@@ -1,5 +1,6 @@
 package com.yh.common.model.user.common.config;
 
+import com.smm.framework.config.swagger.GlobalSwaggerConfig;
 import com.smm.framework.config.swagger.SwaggerApiInfo;
 import com.yh.common.model.user.common.constant.SysConstants;
 import org.springframework.beans.factory.annotation.Value;
@@ -15,7 +16,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  */
 @Configuration
 @EnableSwagger2
-public class UserSwaggerConfig extends GlobalSwaggerConfig2 {
+public class UserSwaggerConfig extends GlobalSwaggerConfig {
 
 
     static {
