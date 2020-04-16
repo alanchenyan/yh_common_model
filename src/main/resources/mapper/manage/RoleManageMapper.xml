@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yh.common.model.user.manage.dao.RoleManageDao">
+
+    <select id="pageRoles" parameterType="com.yh.common.model.user.manage.search.RoleSearch"
+            resultType="com.yh.common.model.user.entity.Role">
+        select * from role
+        <where>
+            deleted = 0 and merchant_id = #{search.merchantId}
+            <if test="search.roleName != null and search.roleName!=''">
+                and role_name like '%${search.roleName}%'
+            </if>
+        </where>
+        order by create_time desc
+    </select>
+
+    <select id="getMenuIdsByRole" resultType="java.lang.String">
+        select
+            menu_id
+        from
+            role_menu_relation
+        where
+            deleted = '0' and role_id = #{roleId}
+    </select>
+
+    <select id="getRoleOptions" resultType="com.yh.common.model.user.common.vo.SelectOption">
+        select
+        id as optionKey, role_name as optionValue
+        from role
+        <where>
+            deleted = 0 and merchant_id = #{merchantId}
+        </where>
+        order by create_time desc
+    </select>
+
+    <select id="pagePlatformRoles"
+            parameterType="com.yh.common.model.user.manage.search.PlatformRoleSearch"
+            resultType="com.yh.common.model.user.entity.Role">
+        select * from role
+        <where>
+            deleted = 0 and platform_state = 1
+            <if test="search.roleName != null and search.roleName!=''">
+                and role_name like '%${search.roleName}%'
+            </if>
+        </where>
+        order by create_time desc
+    </select>
+
+    <select id="getPlatformRoleOptions" resultType="com.yh.common.model.user.common.vo.SelectOption">
+        select
+        id as optionKey, role_name as optionValue
+        from role
+        <where>
+            deleted = 0 and platform_state = 1
+        </where>
+        order by create_time desc
+    </select>
+
+
+</mapper>

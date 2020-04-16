@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yh.common.model.user.manage.dao.AccountLoginManageDao">
+
+    <select id="getMenusByAccountRole"
+            resultType="com.yh.common.model.user.manage.vo.AccountRoleMenusVO">
+        select
+            t2.menu_url,t2.parent_id
+        from
+            role_menu_relation t join menu t2 on t.menu_id = t2.id
+        where
+            t.deleted = '0' and t2.deleted = '0' and role_id = #{roleId}
+    </select>
+
+    <select id="getMenusByParentIds" parameterType="java.util.List"
+            resultType="com.yh.common.model.user.manage.vo.AccountRoleMenusVO">
+        select
+        distinct menu_url,parent_id
+        from menu
+        where
+        deleted = '0' and id in
+        <foreach collection="parentIds" item="parentId" index="index" open="(" separator="," close=")">
+            #{parentId}
+        </foreach>
+
+    </select>
+
+    <select id="getAllMenusForIt" parameterType="java.util.List"
+            resultType="com.yh.common.model.user.manage.vo.AccountRoleMenusVO">
+        select
+            menu_url,parent_id
+        from menu
+        where
+            deleted = '0'
+    </select>
+
+    <select id="getMenusForMerchantAdmin" parameterType="java.util.List"
+            resultType="com.yh.common.model.user.manage.vo.AccountRoleMenusVO">
+        select
+            menu_url,parent_id
+        from menu
+        where
+            deleted = '0' and only_for_it = '0'
+    </select>
+
+</mapper>

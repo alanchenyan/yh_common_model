@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: uuid
+  typeEnumsPackage: com.yh.common.model.user.entity.enums;
+

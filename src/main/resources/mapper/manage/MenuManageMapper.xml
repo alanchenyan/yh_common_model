@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yh.common.model.user.manage.dao.MenuManageDao">
+
+    <select id="getFirstLevelMenus" resultType="com.yh.common.model.user.manage.vo.MenuNodeVO">
+        select id,menu_name,menu_url,only_for_it from menu where deleted = '0' and parent_id = '' and only_for_it = '0'
+    </select>
+
+    <select id="getFirstLevelMenusForIt" resultType="com.yh.common.model.user.manage.vo.MenuNodeVO">
+        select id,menu_name,menu_url,only_for_it from menu where deleted = '0' and parent_id = ''
+    </select>
+
+    <select id="getSecondMenus" resultType="com.yh.common.model.user.manage.vo.MenuNodeVO">
+        select id,menu_name,menu_url,only_for_it from menu where deleted = '0' and parent_id = #{parentId} and only_for_it = '0'
+    </select>
+
+    <select id="getSecondMenusForIt" resultType="com.yh.common.model.user.manage.vo.MenuNodeVO">
+        select id,menu_name,menu_url,only_for_it from menu where deleted = '0' and parent_id = #{parentId}
+    </select>
+
+    <delete id="deleteChildMenus">
+        update menu set deleted='1' where parent_id = #{parentId}
+    </delete>
+
+</mapper>

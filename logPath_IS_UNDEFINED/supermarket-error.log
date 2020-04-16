@@ -1,0 +1,179 @@
+2020-04-16 15:45:28 [main] [INFO] [org.springframework.boot.StartupInfoLogger:55] - Starting YhCommonModelApplication on DavidMacBook-Pro.local with PID 3635 (/Users/david/Desktop/yhService/yh_common_model/target/classes started by david in /Users/david/Desktop/yhService/yh_common_model) 
+2020-04-16 15:45:28 [main] [INFO] [org.springframework.boot.SpringApplication:655] - The following profiles are active: dev 
+2020-04-16 15:45:29 [main] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:249] - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2020-04-16 15:45:29 [main] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+2020-04-16 15:45:29 [main] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces. 
+2020-04-16 15:45:30 [main] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92] - Tomcat initialized with port(s): 8012 (http) 
+2020-04-16 15:45:30 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-8012"] 
+2020-04-16 15:45:30 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat] 
+2020-04-16 15:45:30 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.33] 
+2020-04-16 15:45:30 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext 
+2020-04-16 15:45:30 [main] [INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284] - Root WebApplicationContext: initialization completed in 1336 ms 
+2020-04-16 15:45:31 [main] [INFO] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2020-04-16 15:45:31 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bb8e6fc, org.springframework.security.web.context.SecurityContextPersistenceFilter@740b9a50, org.springframework.security.web.header.HeaderWriterFilter@2506b881, org.springframework.security.web.csrf.CsrfFilter@7d0cd23c, org.springframework.security.web.authentication.logout.LogoutFilter@5a2ae1ab, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4fea840f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@55877274, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2726a511, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7994a0d1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5111de7c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7da1e005, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72c9ebfa, org.springframework.security.web.session.SessionManagementFilter@486bd064, org.springframework.security.web.access.ExceptionTranslationFilter@4a2bf50f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67f946c3] 
+2020-04-16 15:45:31 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed 
+2020-04-16 15:45:31 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 10 custom documentation plugin(s) 
+2020-04-16 15:45:31 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:45:31 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:45:31 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:45:31 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:45:31 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:45:31 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:45:31 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:45:31 [main] [INFO] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references 
+2020-04-16 15:45:31 [main] [INFO] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references 
+2020-04-16 15:45:32 [main] [INFO] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references 
+2020-04-16 15:45:32 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: uploadFileUsingPOST_1 
+2020-04-16 15:45:32 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: resetPasswordUsingPUT_1 
+2020-04-16 15:45:32 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: deleteRoleUsingDELETE_1 
+2020-04-16 15:45:32 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: disableSysAccountUsingPUT_1 
+2020-04-16 15:45:32 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: enableSysAccountUsingPUT_1 
+2020-04-16 15:45:32 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: getSysAccountUsingGET_1 
+2020-04-16 15:45:32 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: resetAccountAndPasswordUsingPUT_1 
+2020-04-16 15:45:32 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: resetPasswordUsingPUT_2 
+2020-04-16 15:45:32 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: updateSysAccountBaseInfoUsingPUT_1 
+2020-04-16 15:45:32 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-8012"] 
+2020-04-16 15:45:32 [main] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] - Tomcat started on port(s): 8012 (http) with context path '' 
+2020-04-16 15:45:32 [main] [INFO] [org.springframework.boot.StartupInfoLogger:61] - Started YhCommonModelApplication in 3.864 seconds (JVM running for 5.037) 
+2020-04-16 15:45:40 [http-nio-8012-exec-1] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-04-16 15:45:40 [http-nio-8012-exec-1] [INFO] [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet' 
+2020-04-16 15:45:40 [http-nio-8012-exec-1] [INFO] [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 6 ms 
+2020-04-16 15:46:23 [main] [INFO] [org.springframework.boot.StartupInfoLogger:55] - Starting YhCommonModelApplication on DavidMacBook-Pro.local with PID 3646 (/Users/david/Desktop/yhService/yh_common_model/target/classes started by david in /Users/david/Desktop/yhService/yh_common_model) 
+2020-04-16 15:46:23 [main] [INFO] [org.springframework.boot.SpringApplication:655] - The following profiles are active: dev 
+2020-04-16 15:46:24 [main] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:249] - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2020-04-16 15:46:24 [main] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+2020-04-16 15:46:24 [main] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces. 
+2020-04-16 15:46:24 [main] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92] - Tomcat initialized with port(s): 8013 (http) 
+2020-04-16 15:46:24 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-8013"] 
+2020-04-16 15:46:24 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat] 
+2020-04-16 15:46:24 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.33] 
+2020-04-16 15:46:24 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext 
+2020-04-16 15:46:24 [main] [INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284] - Root WebApplicationContext: initialization completed in 1424 ms 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2020-04-16 15:46:26 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@353c6da1, org.springframework.security.web.context.SecurityContextPersistenceFilter@64656b9e, org.springframework.security.web.header.HeaderWriterFilter@69a40b3c, org.springframework.security.web.csrf.CsrfFilter@37c7766e, org.springframework.security.web.authentication.logout.LogoutFilter@5e905f2c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@26da1ba2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@64f4f12, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@36c07c75, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@10d18696, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45554613, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@599f1b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6750e381, org.springframework.security.web.session.SessionManagementFilter@6629643d, org.springframework.security.web.access.ExceptionTranslationFilter@53d6e959, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19b5214b] 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 10 custom documentation plugin(s) 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: uploadFileUsingPOST_1 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: resetPasswordUsingPUT_1 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: deleteRoleUsingDELETE_1 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: disableSysAccountUsingPUT_1 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: enableSysAccountUsingPUT_1 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: getSysAccountUsingGET_1 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: resetAccountAndPasswordUsingPUT_1 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: resetPasswordUsingPUT_2 
+2020-04-16 15:46:26 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: updateSysAccountBaseInfoUsingPUT_1 
+2020-04-16 15:46:26 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-8013"] 
+2020-04-16 15:46:26 [main] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] - Tomcat started on port(s): 8013 (http) with context path '' 
+2020-04-16 15:46:26 [main] [INFO] [org.springframework.boot.StartupInfoLogger:61] - Started YhCommonModelApplication in 3.862 seconds (JVM running for 4.368) 
+2020-04-16 15:46:42 [http-nio-8013-exec-1] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-04-16 15:46:42 [http-nio-8013-exec-1] [INFO] [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet' 
+2020-04-16 15:46:42 [http-nio-8013-exec-1] [INFO] [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 7 ms 
+2020-04-16 15:48:01 [main] [INFO] [org.springframework.boot.StartupInfoLogger:55] - Starting YhCommonModelApplication on DavidMacBook-Pro.local with PID 3672 (/Users/david/Desktop/yhService/yh_common_model/target/classes started by david in /Users/david/Desktop/yhService/yh_common_model) 
+2020-04-16 15:48:01 [main] [INFO] [org.springframework.boot.SpringApplication:655] - The following profiles are active: dev 
+2020-04-16 15:48:02 [main] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:249] - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2020-04-16 15:48:02 [main] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+2020-04-16 15:48:02 [main] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces. 
+2020-04-16 15:48:02 [main] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92] - Tomcat initialized with port(s): 8013 (http) 
+2020-04-16 15:48:02 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-8013"] 
+2020-04-16 15:48:02 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat] 
+2020-04-16 15:48:02 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.33] 
+2020-04-16 15:48:02 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext 
+2020-04-16 15:48:02 [main] [INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284] - Root WebApplicationContext: initialization completed in 1458 ms 
+2020-04-16 15:48:03 [main] [INFO] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2020-04-16 15:48:04 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ad6443, org.springframework.security.web.context.SecurityContextPersistenceFilter@43c7fe8a, org.springframework.security.web.header.HeaderWriterFilter@3487442d, org.springframework.security.web.csrf.CsrfFilter@5cff729b, org.springframework.security.web.authentication.logout.LogoutFilter@2726a511, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@755b5f30, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6812c8cc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@78b03788, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@39c87b42, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21b51e59, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b8aaeab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f5dfe69, org.springframework.security.web.session.SessionManagementFilter@3a3f96ab, org.springframework.security.web.access.ExceptionTranslationFilter@31ab1e67, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cc12db2] 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 10 custom documentation plugin(s) 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: uploadFileUsingPOST_1 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: resetPasswordUsingPUT_1 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: deleteRoleUsingDELETE_1 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: disableSysAccountUsingPUT_1 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: enableSysAccountUsingPUT_1 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: getSysAccountUsingGET_1 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: resetAccountAndPasswordUsingPUT_1 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: resetPasswordUsingPUT_2 
+2020-04-16 15:48:04 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: updateSysAccountBaseInfoUsingPUT_1 
+2020-04-16 15:48:04 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-8013"] 
+2020-04-16 15:48:04 [main] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] - Tomcat started on port(s): 8013 (http) with context path '' 
+2020-04-16 15:48:04 [main] [INFO] [org.springframework.boot.StartupInfoLogger:61] - Started YhCommonModelApplication in 3.967 seconds (JVM running for 4.696) 
+2020-04-16 15:49:31 [main] [INFO] [org.springframework.boot.StartupInfoLogger:55] - Starting YhCommonModelApplication on DavidMacBook-Pro.local with PID 3692 (/Users/david/Desktop/yhService/yh_common_model/target/classes started by david in /Users/david/Desktop/yhService/yh_common_model) 
+2020-04-16 15:49:31 [main] [INFO] [org.springframework.boot.SpringApplication:655] - The following profiles are active: dev 
+2020-04-16 15:49:32 [main] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:249] - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2020-04-16 15:49:32 [main] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode. 
+2020-04-16 15:49:32 [main] [INFO] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:187] - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces. 
+2020-04-16 15:49:32 [main] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92] - Tomcat initialized with port(s): 8013 (http) 
+2020-04-16 15:49:32 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-8013"] 
+2020-04-16 15:49:32 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat] 
+2020-04-16 15:49:32 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.33] 
+2020-04-16 15:49:32 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext 
+2020-04-16 15:49:32 [main] [INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:284] - Root WebApplicationContext: initialization completed in 1501 ms 
+2020-04-16 15:49:33 [main] [INFO] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: Ant [pattern='/config/**'], [] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: Ant [pattern='/css/**'], [] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: Ant [pattern='/fonts/**'], [] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: Ant [pattern='/img/**'], [] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: Ant [pattern='/image/**'], [] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: Ant [pattern='/images/**'], [] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: Ant [pattern='/static/**'], [] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: Ant [pattern='/js/**'], [] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: Ant [pattern='/v2/api-docs/**'], [] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: Ant [pattern='/swagger.json'], [] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: Ant [pattern='/swagger-ui.html'], [] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: Ant [pattern='/swagger-resources/**'], [] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: Ant [pattern='/webjars/**'], [] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.security.web.DefaultSecurityFilterChain:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6750e381, org.springframework.security.web.context.SecurityContextPersistenceFilter@50bc3219, org.springframework.security.web.header.HeaderWriterFilter@64656b9e, org.springframework.web.filter.CorsFilter@5d850a25, org.springframework.security.web.authentication.logout.LogoutFilter@52354202, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22791b75, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70881123, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b022551, org.springframework.security.web.session.SessionManagementFilter@6d294ddc, org.springframework.security.web.access.ExceptionTranslationFilter@6629643d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d37ee0c] 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] - Context refreshed 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] - Found 10 custom documentation plugin(s) 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:169] - Skipping initializing disabled plugin bean swagger v2.0 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] - Scanning for api listing references 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: uploadFileUsingPOST_1 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: resetPasswordUsingPUT_1 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: deleteRoleUsingDELETE_1 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: disableSysAccountUsingPUT_1 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: enableSysAccountUsingPUT_1 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: getSysAccountUsingGET_1 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: resetAccountAndPasswordUsingPUT_1 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: resetPasswordUsingPUT_2 
+2020-04-16 15:49:34 [main] [INFO] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] - Generating unique operation named: updateSysAccountBaseInfoUsingPUT_1 
+2020-04-16 15:49:34 [main] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-8013"] 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] - Tomcat started on port(s): 8013 (http) with context path '' 
+2020-04-16 15:49:34 [main] [INFO] [org.springframework.boot.StartupInfoLogger:61] - Started YhCommonModelApplication in 3.952 seconds (JVM running for 4.545) 
+2020-04-16 15:49:52 [http-nio-8013-exec-1] [INFO] [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-04-16 15:49:52 [http-nio-8013-exec-1] [INFO] [org.springframework.web.servlet.FrameworkServlet:525] - Initializing Servlet 'dispatcherServlet' 
+2020-04-16 15:49:52 [http-nio-8013-exec-1] [INFO] [org.springframework.web.servlet.FrameworkServlet:547] - Completed initialization in 6 ms 
+2020-04-16 15:50:15 [http-nio-8013-exec-5] [INFO] [com.zaxxer.hikari.HikariDataSource:110] - YH_HikariCP - Starting... 
+2020-04-16 15:50:16 [http-nio-8013-exec-5] [INFO] [com.zaxxer.hikari.HikariDataSource:123] - YH_HikariCP - Start completed. 
+2020-04-16 15:51:13 [http-nio-8013-exec-5] [INFO] [com.yunpian.sdk.YunpianClient:143] - YunpianClient is initing! 
+2020-04-16 15:51:13 [http-nio-8013-exec-5] [INFO] [com.yunpian.sdk.YunpianConf:92] - load default yunpian.properties 
+2020-04-16 15:51:13 [http-nio-8013-exec-5] [INFO] [com.yunpian.sdk.YunpianConf:102] - apikey-0e8938fa4822ba91a854df35b667f4aa conf-{yp.flow.host=https://flow.yunpian.com, yp.sign.host=https://sms.yunpian.com, yp.tpl.host=https://sms.yunpian.com, http.conn.maxperroute=50, yp.user.host=https://sms.yunpian.com, yp.version=v2, yp.call.host=https://call.yunpian.com, yp.short_url.host=https://sms.yunpian.com, http.charset=utf-8, http.conn.timeout=10000, yp.voice.host=https://voice.yunpian.com, http.so.timeout=30000, yp.sms.host=https://sms.yunpian.com, http.conn.maxtotal=200} 
+2020-04-16 15:51:13 [http-nio-8013-exec-5] [INFO] [com.yunpian.sdk.YunpianClient:236] - YunpianClient is closing! 
+2020-04-16 15:52:10 [http-nio-8013-exec-4] [WARN] [org.springframework.core.log.CompositeLog:127] - Failed to evaluate Jackson serialization for type [class com.yh.common.model.user.entity.User]: com.fasterxml.jackson.databind.JsonMappingException: Problem with definition of [AnnotedClass com.yh.common.model.user.entity.enums.SexTypeEnum]: Multiple 'as-value' properties defined ([field com.yh.common.model.user.entity.enums.SexTypeEnum#code] vs [method com.yh.common.model.user.entity.enums.SexTypeEnum#mapForSwagger(0 params)]) 
+2020-04-16 15:53:14 [SpringContextShutdownHook] [INFO] [com.zaxxer.hikari.HikariDataSource:350] - YH_HikariCP - Shutdown initiated... 
+2020-04-16 15:53:14 [SpringContextShutdownHook] [INFO] [com.zaxxer.hikari.HikariDataSource:352] - YH_HikariCP - Shutdown completed. 
